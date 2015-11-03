@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-034-66ac-9529e3">
+    <release tarname="vim-7.3-2-msys-1.0.16-lic.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-011-664d-7cd9c6" />
+    </references>
+    <manifest>
+        <file path="share/doc/vim/7.3/LICENSE" />
+        <file path="share/doc/vim/7.3/OpenPublicationLicense.html" />
+    </manifest>
+</package>

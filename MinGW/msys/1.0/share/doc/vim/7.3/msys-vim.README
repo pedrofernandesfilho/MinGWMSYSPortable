@@ -1,0 +1,81 @@
+msys vim
+========================================================================
+Vim is a highly configurable text editor built to enable efficient text
+editing. It is an improved version of the vi editor distributed with
+most UNIX systems. Vim is distributed free as charityware. If you find
+Vim a useful addition to your life please consider helping needy
+children in Uganda (http://iccf-holland.org/).
+
+This version has been modified and compiled for use in the MSYS
+environment. It should be installed into the / == /usr directory, which
+is usually but not always, C:\MinGW\msys\1.0.
+
+Runtime requirements:
+  msysCORE-1.0.13-2-msys-1.0.13-bin
+  libintl-0.17-2-msys-1.0.13-dll-8
+  libiconv-1.13.1-2-msys-dll-2
+  termcap-0.20050421_1-2-msys-1.0.13-bin
+  libtermcap-0.20050421_1-2-msys-1.0.13-dll-0
+
+Build requirements (these, or newer)
+  MSYS toolchain
+    binutils-2.19.51-3-msys-1.0.13-bin
+    gcc-3.4.4-3-msys-1.0.13-bin
+    w32api-3.14-3-msys-1.0.12-dev
+    msysCORE-1.0.13-2-msys-1.0.13-dev
+
+  Devel Tools and Dependent Libraries 
+    autoconf-2.65-1-msys-1.0.13-bin
+    automake-1.11.1-1-msys-1.0.13-bin
+    libiconv-1.13.1-2-msys-1.0.13-dev
+    gettext-0.17-2-msys-1.0.13-bin
+    gettext-0.17-2-msys-1.0.13-dev
+    libgettextpo-0.17-2-msys-1.0.13-dll-0
+    texinfo-4.13a-2-msys-1.0.13-bin
+    libtermcap-0.20050421_1-2-msys-1.0.13-dev
+    termcap-0.20050421_1-2-msys-1.0.13-bin
+
+  MSYS Environment
+    perl-5.6.1_2-2-msys-1.0.13-bin
+    libcrypt-1.1_1-3-msys-1.0.13-dll-0
+    libgdbm-1.8.3-3-msys-1.0.13-dll-3
+    zlib-1.2.3-2-msys-1.0.13-dll
+    coreutils-5.97-2-msys-1.0.11-bin
+    make-3.81-2-msys-1.0.11-bin
+    bash-3.1.17-2-msys-1.0.11-bin
+    tar-1.23-2-msys-1.0.13-bin
+    xz-4.999.9beta_20100401-1-msys-1.0.13-bin
+    liblzma-4.999.9beta_20100401-1-msys-1.0.13-dll-1
+    bzip2-1.0.5-2-msys-1.0.13-bin
+    libbz2-1.0.5-2-msys-1.0.13-dll-1
+    gzip-1.3.12-2-msys-1.0.13-bin
+    file-5.04-2-msys-1.0.13-bin
+    grep-2.5.4-2-msys-1.0.13-bin
+    sed-4.2.1-2-msys-1.0.13-bin
+    gawk-3.1.7-2-msys-1.0.13-bin
+
+Canonical homepage:
+  http://www.vim.org/
+
+Canonical download:
+  hg clone https://vim.googlecode.com/hg/ vim
+
+License:
+  GPL-compatible charityware
+  Open Publication License (documentation)
+
+Language:
+  C
+
+========================================================================
+
+Build instructions:
+  unpack vim-7.3-2-msys-1.0.16-src.tar.lzma
+  ./build-msys-vim
+
+This will create:
+  vim-7.3-2-msys-1.0.16-src.tar.lzma
+  vim-7.3-2-msys-1.0.16-bin.tar.lzma
+  vim-7.3-2-msys-1.0.16-lang.tar.lzma
+  vim-7.3-2-msys-1.0.16-doc.tar.lzma
+  vim-7.3-2-msys-1.0.16-lic.tar.lzma

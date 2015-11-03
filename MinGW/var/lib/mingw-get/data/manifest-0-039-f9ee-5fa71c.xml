@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-039-f9ee-5fa71c">
+    <release tarname="mintty-1.0.3-1-msys-1.0.17-bin.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-011-664d-7cd9c6" />
+    </references>
+    <manifest>
+        <file path="bin/mintty.exe" />
+    </manifest>
+</package>

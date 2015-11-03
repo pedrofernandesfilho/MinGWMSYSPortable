@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-039-8b1f-f68030">
+    <release tarname="mintty-1.0.3-1-msys-1.0.17-doc.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-011-664d-7cd9c6" />
+    </references>
+    <manifest>
+        <dir path="share/doc" />
+        <dir path="share/doc/mintty" />
+        <dir path="share/doc/mintty/1.0.3" />
+        <dir path="share/doc/MSYS" />
+        <file path="share/doc/MSYS/mintty.README.txt" />
+        <dir path="share/man" />
+        <dir path="share/man/man1" />
+        <file path="share/man/man1/mintty.1.gz" />
+    </manifest>
+</package>
