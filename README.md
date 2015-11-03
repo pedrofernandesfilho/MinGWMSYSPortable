@@ -2,7 +2,9 @@
 
 With mintty and vim
 
-Instruction: Execute "LaunchMSYSmintty.bat"
+Instructions:
+1. Execute "LaunchMSYSmintty.bat"
+2. Enjoy!
 
 References:
 - http://blog.golovin.in/portable-mingw-and-msys/
